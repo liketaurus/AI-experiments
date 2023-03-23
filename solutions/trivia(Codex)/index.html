@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Гра-вікторина</title>
+    <style>
+      body {
+        background-color: #f1f1f1;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      h1 {
+        color: #333;
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+      }
+      #quiz {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        padding: 2rem;
+        margin: 0 auto;
+max-width: 600px;
+      }
+      #question {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+      }
+      #choices {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2rem;
+      }
+      .choice {
+        background-color: #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        font-size: 1.2rem;
+        margin: 0.5rem;
+        padding: 1rem;
+        transition: all 0.2s ease-in-out;
+        width: 40%;
+      }
+      .choice:hover {
+        background-color: #ccc;
+      }
+      .correct {
+        background-color: #7ec699;
+        color: #fff;
+      }
+      .incorrect {
+        background-color: #f44336;
+        color: #fff;
+      }
+      #progress {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+      #result {
+        font-size: 1.5rem;
+margin-bottom: 2rem;
+      }
+      #fact {
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Гра-вікторина</h1>
+    <div id="quiz">
+      <div id="question"></div>
+      <div id="choices"></div>
+      <div id="progress"></div>
+      <div id="result"></div>
+      <div id="fact"></div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
