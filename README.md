@@ -7,3 +7,4 @@
   * [від Microsoft Designer](https://github.com/liketaurus/AI-experiments/tree/main/images/MicrosoftDesigner)
   * [від Artbreeder](https://github.com/liketaurus/AI-experiments/tree/main/images/Artbreeder)
   * [від DALL-E](https://github.com/liketaurus/AI-experiments/tree/main/images/DALL-E)
+  * [від Bing Image Creator](https://github.com/liketaurus/AI-experiments/tree/main/images/BingAI)
